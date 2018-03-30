@@ -3,4 +3,5 @@
   (lib (name Potentiometer_Digital_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Potentiometer_Digital_Extra.lib)(options "")(descr ""))
   (lib (name MCU_ST_STM32_Extra)(type Legacy)(uri ${KIPRJMOD}/library/MCU_ST_STM32_Extra.lib)(options "")(descr ""))
   (lib (name Regulator_Linear_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Regulator_Linear_Extra.lib)(options "")(descr ""))
+  (lib (name Device_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Device_Extra.lib)(options "")(descr ""))
 )
