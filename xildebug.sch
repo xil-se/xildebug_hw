@@ -269,10 +269,10 @@ Text Label 6400 5150 0    50   ~ 0
 GPIO2_A
 Text Label 6400 5250 0    50   ~ 0
 GPIO3_A
-Text Label 4650 4350 2    50   ~ 0
-USB_DP
 Text Label 4650 4250 2    50   ~ 0
-USB_DM
+USB_D+
+Text Label 4650 4350 2    50   ~ 0
+USB_D-
 Text Label 5200 3750 2    50   ~ 0
 STM_SWDIO
 Text Label 5200 3650 2    50   ~ 0
@@ -362,9 +362,9 @@ F 3 "" H 1750 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2150 1650 0    50   ~ 0
-USB_DP
+USB_D+
 Text Label 2150 1750 0    50   ~ 0
-USB_DM
+USB_D-
 NoConn ~ 2100 1850
 Wire Wire Line
 	2150 1450 2150 1400
