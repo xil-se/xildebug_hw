@@ -665,11 +665,11 @@ Connection ~ 4300 2800
 Wire Wire Line
 	4500 2800 4600 2800
 Connection ~ 4500 2800
-Text HLabel 4600 2800 2    50   Input ~ 0
+Text HLabel 4600 2800 2    50   Output ~ 0
 DUT_VDD_REG
 Text HLabel 2750 4200 0    50   Input ~ 0
 POT_SCL
-Text HLabel 2750 4300 0    50   Input ~ 0
+Text HLabel 2750 4300 0    50   BiDi ~ 0
 POT_SDA
 Text HLabel 6600 2650 0    50   Input ~ 0
 DUT_VDD_EN
@@ -679,7 +679,7 @@ Text HLabel 6600 3750 0    50   Input ~ 0
 SHUNT1_EN
 Text HLabel 6600 4600 0    50   Input ~ 0
 SHUNT2_EN
-Text HLabel 8300 2550 2    50   Input ~ 0
+Text HLabel 8300 2550 2    50   Output ~ 0
 DUT_VDD_OUT
 Wire Wire Line
 	4300 5800 4450 5800
@@ -777,9 +777,9 @@ Text HLabel 4300 5800 0    50   Input ~ 0
 DUT_VDD_IN
 Text HLabel 4300 6350 0    50   Input ~ 0
 DUT_VDD_OUT
-Text HLabel 4900 5650 2    50   Input ~ 0
+Text HLabel 4900 5650 2    50   Output ~ 0
 DUT_VDD_IN_DIV
-Text HLabel 4900 6200 2    50   Input ~ 0
+Text HLabel 4900 6200 2    50   Output ~ 0
 DUT_VDD_OUT_DIV
 Text Notes 2975 4425 0    50   ~ 0
 I2C: 0x2F
