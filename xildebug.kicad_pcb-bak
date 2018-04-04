@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 41)
+    (drawings 40)
     (tracks 895)
     (zones 0)
     (modules 64)
@@ -3968,9 +3968,6 @@
       (xy -1.35442 2.078762) (xy -1.323398 2.072106) (xy -1.28897 2.069004) (xy -1.251012 2.069431)) (layer F.SilkS) (width 0.01))
   )
 
-  (gr_text "VDD\nCLK\nGND\nIO\nTX\nRX" (at 207.6 55.4 90) (layer F.SilkS) (tstamp 5AE3D6AA)
-    (effects (font (size 0.8 0.8) (thickness 0.15)))
-  )
   (gr_text "xildebug\nrev1\nApr 2018" (at 235.6 56.6) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )

@@ -38,10 +38,6 @@ Wire Wire Line
 Wire Wire Line
 	9950 2800 10000 2800
 Wire Wire Line
-	9950 3400 10000 3400
-Wire Wire Line
-	9950 3500 10000 3500
-Wire Wire Line
 	8950 2700 8900 2700
 Wire Wire Line
 	8950 2800 8900 2800
@@ -205,13 +201,13 @@ Text Label 3000 7500 0    50   ~ 0
 DUT_UART_RX_B
 Text Label 3000 7400 0    50   ~ 0
 DUT_UART_TX_B
-Text Label 10000 3400 0    50   ~ 0
+Text Label 10000 3700 0    50   ~ 0
 DUT_SWCLK_B
-Text Label 10000 3500 0    50   ~ 0
+Text Label 10000 3600 0    50   ~ 0
 DUT_SWDIO_B
-Text Label 10300 3600 0    50   ~ 0
+Text Label 10300 3500 0    50   ~ 0
 DUT_UART_TX_B
-Text Label 10300 3700 0    50   ~ 0
+Text Label 10300 3400 0    50   ~ 0
 DUT_UART_RX_B
 Text Label 8900 2700 2    50   ~ 0
 SWITCH_SCL
@@ -383,19 +379,19 @@ Text Label 6400 3650 0    50   ~ 0
 DUT_SWCLK_A
 Text Label 6400 3750 0    50   ~ 0
 DUT_SWDIO_A
-Text Label 10000 2500 0    50   ~ 0
+Text Label 10000 2800 0    50   ~ 0
 DUT_SWCLK_A
-Text Label 10000 2600 0    50   ~ 0
+Text Label 10000 2700 0    50   ~ 0
 DUT_SWDIO_A
 Text Label 6400 4550 0    50   ~ 0
 DUT_UART_TX_A
 Text Label 6400 4650 0    50   ~ 0
 DUT_UART_RX_A
-Text Label 10000 2700 0    50   ~ 0
+Text Label 10000 2600 0    50   ~ 0
 DUT_UART_TX_A
-Text Label 10000 2800 0    50   ~ 0
+Text Label 10000 2500 0    50   ~ 0
 DUT_UART_RX_A
-Text Label 6400 2950 0    50   ~ 0
+Text Label 6400 3550 0    50   ~ 0
 DUT_VDD_EN
 Text Label 6400 2350 0    50   ~ 0
 DUT_VDD_IN_DIV
@@ -405,21 +401,21 @@ Text Label 6400 3250 0    50   ~ 0
 STM_SCL
 Text Label 6400 3350 0    50   ~ 0
 STM_SDA
-Text Label 6400 5450 0    50   ~ 0
-SHUNT1_EN
-Text Label 6400 5550 0    50   ~ 0
-SHUNT2_EN
-Text Label 6400 2750 0    50   ~ 0
-DUT_UART_TX_LED
 Text Label 6400 2850 0    50   ~ 0
+SHUNT1_EN
+Text Label 6400 2950 0    50   ~ 0
+SHUNT2_EN
+Text Label 6400 5450 0    50   ~ 0
+DUT_UART_TX_LED
+Text Label 6400 5550 0    50   ~ 0
 DUT_UART_RX_LED
-Text Label 1000 7100 0    50   ~ 0
+Text Label 2000 7600 0    50   ~ 0
 GPIO3_B
-Text Label 1000 6800 0    50   ~ 0
+Text Label 2000 7300 0    50   ~ 0
 GPIO0_B
-Text Label 1000 7000 0    50   ~ 0
+Text Label 2000 7500 0    50   ~ 0
 GPIO2_B
-Text Label 1000 6900 0    50   ~ 0
+Text Label 2000 7400 0    50   ~ 0
 GPIO1_B
 Text Label 6350 850  0    50   ~ 0
 DUT_UART_TX_LED
@@ -799,12 +795,12 @@ Wire Wire Line
 Wire Wire Line
 	2000 7200 1950 7200
 $Comp
-L Connector_Generic:Conn_01x11 J4
+L Connector_Generic:Conn_01x12 J4
 U 1 1 5B12D19C
 P 1750 7000
 F 0 "J4" H 1750 7600 50  0000 C CNN
 F 1 "Conn_Ext2" V 1850 7000 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical" H 1750 7000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 1750 7000 50  0001 C CNN
 F 3 "~" H 1750 7000 50  0001 C CNN
 	1    1750 7000
 	-1   0    0    -1  
@@ -844,33 +840,33 @@ Wire Wire Line
 $Comp
 L Device:D_Small D5
 U 1 1 5B47A1D1
-P 10150 3600
-F 0 "D5" H 10200 3650 50  0000 L CNN
-F 1 "D_TX" H 10150 3714 50  0001 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 10150 3600 50  0001 C CNN
-F 3 "~" V 10150 3600 50  0001 C CNN
-	1    10150 3600
+P 10150 3500
+F 0 "D5" H 10200 3550 50  0000 L CNN
+F 1 "D_TX" H 10150 3614 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 10150 3500 50  0001 C CNN
+F 3 "~" V 10150 3500 50  0001 C CNN
+	1    10150 3500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D6
 U 1 1 5B47A350
-P 10150 3700
-F 0 "D6" H 10100 3750 50  0000 R CNN
-F 1 "D_RX" H 10150 3814 50  0001 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 10150 3700 50  0001 C CNN
-F 3 "~" V 10150 3700 50  0001 C CNN
-	1    10150 3700
+P 10150 3400
+F 0 "D6" H 10100 3450 50  0000 R CNN
+F 1 "D_RX" H 10150 3514 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 10150 3400 50  0001 C CNN
+F 3 "~" V 10150 3400 50  0001 C CNN
+	1    10150 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9950 3600 10050 3600
+	9950 3500 10050 3500
 Wire Wire Line
-	9950 3700 10050 3700
+	9950 3400 10050 3400
 Wire Wire Line
-	10250 3600 10300 3600
+	10250 3500 10300 3500
 Wire Wire Line
-	10300 3700 10250 3700
+	10300 3400 10250 3400
 $Comp
 L Device:R_Small R8
 U 1 1 5B52EFB9
@@ -917,21 +913,21 @@ Wire Wire Line
 	9950 4000 10000 4000
 Wire Wire Line
 	9950 4100 10000 4100
-Text Label 10000 2900 0    50   ~ 0
-GPIO0_A
-Text Label 10000 3000 0    50   ~ 0
-GPIO1_A
-Text Label 10000 3100 0    50   ~ 0
-GPIO2_A
 Text Label 10000 3200 0    50   ~ 0
+GPIO0_A
+Text Label 10000 3100 0    50   ~ 0
+GPIO1_A
+Text Label 10000 3000 0    50   ~ 0
+GPIO2_A
+Text Label 10000 2900 0    50   ~ 0
 GPIO3_A
-Text Label 10000 4100 0    50   ~ 0
-GPIO3_B
 Text Label 10000 3800 0    50   ~ 0
+GPIO3_B
+Text Label 10000 4100 0    50   ~ 0
 GPIO0_B
-Text Label 10000 4000 0    50   ~ 0
-GPIO2_B
 Text Label 10000 3900 0    50   ~ 0
+GPIO2_B
+Text Label 10000 4000 0    50   ~ 0
 GPIO1_B
 $Comp
 L MCU_ST_STM32_Extra:STM32L433CCUx U3
@@ -1252,7 +1248,7 @@ F 3 "" H 5200 4300 50  0001 C CNN
 	1    5200 4300
 	0    -1   -1   0   
 $EndComp
-Text Label 6400 3550 0    50   ~ 0
+Text Label 6400 2750 0    50   ~ 0
 DUT_SWD_LED
 Text Label 6350 700  0    50   ~ 0
 DUT_SWD_LED
@@ -1427,29 +1423,29 @@ Text Label 6400 5050 0    50   ~ 0
 PB15
 Text Label 6400 5350 0    50   ~ 0
 PC15
-Text Label 2000 6800 0    50   ~ 0
-PA2
-Text Label 2000 6900 0    50   ~ 0
-PA3
-Text Label 2000 7000 0    50   ~ 0
-PA7
-Text Label 2000 7100 0    50   ~ 0
-PB3
-Text Label 2000 7200 0    50   ~ 0
-PB4
-Text Label 2000 7300 0    50   ~ 0
-PB5
-Text Label 2000 7400 0    50   ~ 0
-PB6
-Text Label 2000 7500 0    50   ~ 0
-PB7
-Text Label 1000 7200 0    50   ~ 0
-PB13
 Text Label 1000 7300 0    50   ~ 0
+PA2
+Text Label 1000 7200 0    50   ~ 0
+PA3
+Text Label 1000 7100 0    50   ~ 0
+PA7
+Text Label 2000 6800 0    50   ~ 0
+PB3
+Text Label 2000 6900 0    50   ~ 0
+PB4
+Text Label 2000 7000 0    50   ~ 0
+PB5
+Text Label 2000 7100 0    50   ~ 0
+PB6
+Text Label 2000 7200 0    50   ~ 0
+PB7
+Text Label 1000 7000 0    50   ~ 0
+PB13
+Text Label 1000 6900 0    50   ~ 0
 PB14
-Text Label 1000 7400 0    50   ~ 0
+Text Label 1000 6800 0    50   ~ 0
 PB15
-Text Label 1000 7500 0    50   ~ 0
+Text Label 1000 7400 0    50   ~ 0
 PC15
 $Sheet
 S 8850 4800 1350 750 
@@ -1630,4 +1626,12 @@ Wire Wire Line
 	5200 3100 5200 3050
 Wire Wire Line
 	5200 3300 5200 3400
+Wire Wire Line
+	1950 7600 2000 7600
+Text Label 1000 7500 0    50   ~ 0
+DUT_VDD_OUT
+Wire Wire Line
+	10000 3600 9950 3600
+Wire Wire Line
+	10000 3700 9950 3700
 $EndSCHEMATC
