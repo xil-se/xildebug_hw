@@ -4,4 +4,5 @@
   (lib (name MCU_ST_STM32_Extra)(type Legacy)(uri ${KIPRJMOD}/library/MCU_ST_STM32_Extra.lib)(options "")(descr ""))
   (lib (name Regulator_Linear_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Regulator_Linear_Extra.lib)(options "")(descr ""))
   (lib (name Device_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Device_Extra.lib)(options "")(descr ""))
+  (lib (name xildebug-rescue)(type Legacy)(uri ${KIPRJMOD}/xildebug-rescue.lib)(options "")(descr ""))
 )
