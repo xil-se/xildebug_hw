@@ -158,44 +158,44 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x06 J5
 U 1 1 5ABEA87F
-P 2750 7050
-F 0 "J5" H 2750 7350 50  0000 C CNN
-F 1 "Conn_DUT" V 2850 7000 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2750 7050 50  0001 C CNN
-F 3 "~" H 2750 7050 50  0001 C CNN
-	1    2750 7050
+P 3050 7100
+F 0 "J5" H 3050 7400 50  0000 C CNN
+F 1 "Conn_DUT" V 3150 7050 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3050 7100 50  0001 C CNN
+F 3 "~" H 3050 7100 50  0001 C CNN
+	1    3050 7100
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 6850 3000 6850
+	3250 6900 3300 6900
 Wire Wire Line
-	2950 6950 3000 6950
+	3250 7000 3300 7000
 Wire Wire Line
-	2950 7050 3000 7050
+	3250 7100 3300 7100
 Wire Wire Line
-	2950 7150 3000 7150
+	3250 7200 3300 7200
 Wire Wire Line
-	2950 7250 3000 7250
+	3250 7300 3300 7300
 Wire Wire Line
-	2950 7350 3000 7350
-Text Label 3000 6950 0    50   ~ 0
+	3250 7400 3300 7400
+Text Label 3300 7000 0    50   ~ 0
 DUT_SWCLK_B
 $Comp
 L power:GND #PWR040
 U 1 1 5ABEDD23
-P 3000 7050
-F 0 "#PWR040" H 3000 6800 50  0001 C CNN
-F 1 "GND" V 3000 6950 50  0000 R CNN
-F 2 "" H 3000 7050 50  0001 C CNN
-F 3 "" H 3000 7050 50  0001 C CNN
-	1    3000 7050
+P 3300 7100
+F 0 "#PWR040" H 3300 6850 50  0001 C CNN
+F 1 "GND" V 3300 7000 50  0000 R CNN
+F 2 "" H 3300 7100 50  0001 C CNN
+F 3 "" H 3300 7100 50  0001 C CNN
+	1    3300 7100
 	0    -1   -1   0   
 $EndComp
-Text Label 3000 7150 0    50   ~ 0
+Text Label 3300 7200 0    50   ~ 0
 DUT_SWDIO_B
-Text Label 3000 7350 0    50   ~ 0
+Text Label 3300 7400 0    50   ~ 0
 DUT_UART_RX_B
-Text Label 3000 7250 0    50   ~ 0
+Text Label 3300 7300 0    50   ~ 0
 DUT_UART_TX_B
 Text Label 10050 3400 0    50   ~ 0
 DUT_SWCLK_B
@@ -268,47 +268,47 @@ STM_SWCLK
 $Comp
 L Connector_Generic:Conn_01x04 J2
 U 1 1 5AC03336
-P 1750 6800
-F 0 "J2" H 1750 7000 50  0000 C CNN
-F 1 "Conn_STM_SWD" V 1850 6750 50  0000 C CNN
-F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 1750 6800 50  0001 C CNN
-F 3 "~" H 1750 6800 50  0001 C CNN
-	1    1750 6800
+P 1000 6800
+F 0 "J2" H 1000 7000 50  0000 C CNN
+F 1 "Conn_STM_SWD" V 1100 6750 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 1000 6800 50  0001 C CNN
+F 3 "~" H 1000 6800 50  0001 C CNN
+	1    1000 6800
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 6700 2000 6700
+	1200 6700 1250 6700
 Wire Wire Line
-	1950 6800 2000 6800
+	1200 6800 1250 6800
 Wire Wire Line
-	1950 6900 2000 6900
+	1200 6900 1250 6900
 Wire Wire Line
-	1950 7000 2000 7000
+	1200 7000 1250 7000
 $Comp
 L power:GND #PWR039
 U 1 1 5AC06E07
-P 2000 6900
-F 0 "#PWR039" H 2000 6650 50  0001 C CNN
-F 1 "GND" V 2000 6800 50  0000 R CNN
-F 2 "" H 2000 6900 50  0001 C CNN
-F 3 "" H 2000 6900 50  0001 C CNN
-	1    2000 6900
+P 1250 6900
+F 0 "#PWR039" H 1250 6650 50  0001 C CNN
+F 1 "GND" V 1250 6800 50  0000 R CNN
+F 2 "" H 1250 6900 50  0001 C CNN
+F 3 "" H 1250 6900 50  0001 C CNN
+	1    1250 6900
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR036
 U 1 1 5AC06E6D
-P 2000 6700
-F 0 "#PWR036" H 2000 6550 50  0001 C CNN
-F 1 "+3.3V" V 2000 6800 50  0000 L CNN
-F 2 "" H 2000 6700 50  0001 C CNN
-F 3 "" H 2000 6700 50  0001 C CNN
-	1    2000 6700
+P 1250 6700
+F 0 "#PWR036" H 1250 6550 50  0001 C CNN
+F 1 "+3.3V" V 1250 6800 50  0000 L CNN
+F 2 "" H 1250 6700 50  0001 C CNN
+F 3 "" H 1250 6700 50  0001 C CNN
+	1    1250 6700
 	0    1    1    0   
 $EndComp
-Text Label 2000 6800 0    50   ~ 0
+Text Label 1250 6800 0    50   ~ 0
 STM_SWCLK
-Text Label 2000 7000 0    50   ~ 0
+Text Label 1250 7000 0    50   ~ 0
 STM_SWDIO
 $Comp
 L xildebug-rescue:USB_B_Micro-Connector_Specialized J1
@@ -373,9 +373,9 @@ Text Label 10000 2500 0    50   ~ 0
 DUT_SWCLK_A
 Text Label 10000 2700 0    50   ~ 0
 DUT_SWDIO_A
-Text Label 6400 2550 0    50   ~ 0
+Text Label 6400 4550 0    50   ~ 0
 DUT_UART_TX_A
-Text Label 6400 2650 0    50   ~ 0
+Text Label 6400 4650 0    50   ~ 0
 DUT_UART_RX_A
 Text Label 10000 2600 0    50   ~ 0
 DUT_UART_TX_A
@@ -389,13 +389,13 @@ Text Label 6400 3050 0    50   ~ 0
 DUT_UART_TX_LED
 Text Label 6400 3550 0    50   ~ 0
 DUT_UART_RX_LED
-Text Label 2000 7600 0    50   ~ 0
+Text Label 1250 7600 0    50   ~ 0
 GPIO3_B
-Text Label 2000 7300 0    50   ~ 0
+Text Label 1250 7300 0    50   ~ 0
 GPIO0_B
-Text Label 2000 7500 0    50   ~ 0
+Text Label 1250 7500 0    50   ~ 0
 GPIO2_B
-Text Label 2000 7400 0    50   ~ 0
+Text Label 1250 7400 0    50   ~ 0
 GPIO1_B
 Text Label 6350 850  0    50   ~ 0
 DUT_UART_TX_LED
@@ -743,7 +743,7 @@ U 1 1 5AC4A44C
 P 5800 3950
 F 0 "U3" H 6250 5700 50  0000 R CNN
 F 1 "STM32L433CCUx" H 5800 2200 50  0000 C CNN
-F 2 "Package_DFN_QFN_Extra:UFQFPN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 5800 2100 50  0001 C CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 5800 2100 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/389/stm32l433cc-956250.pdf" H 5800 2100 50  0001 C CNN
 	1    5800 3950
 	1    0    0    -1  
@@ -1038,108 +1038,108 @@ Wire Wire Line
 	6350 5450 6400 5450
 Wire Wire Line
 	6350 5550 6400 5550
-Text Notes 1650 4850 0    50   ~ 0
+Text Notes 1600 4000 0    50   ~ 0
 GPIOs AF
 Wire Notes Line
-	700  5250 2900 5250
+	650  4400 2850 4400
 Wire Notes Line
-	700  5350 2900 5350
+	650  4500 2850 4500
 Wire Notes Line
-	700  5450 2900 5450
+	650  4600 2850 4600
 Wire Notes Line
-	700  5550 2900 5550
+	650  4700 2850 4700
 Wire Notes Line
-	700  5650 2900 5650
+	650  4800 2850 4800
 Wire Notes Line
-	700  5750 2900 5750
+	650  4900 2850 4900
 Wire Notes Line
-	700  5850 2900 5850
+	650  5000 2850 5000
 Wire Notes Line
-	700  5150 2900 5150
+	650  4300 2850 4300
 Wire Notes Line
-	2900 5050 700  5050
+	2850 4200 650  4200
 Wire Notes Line
-	700  4950 2900 4950
+	650  4100 2850 4100
 Wire Notes Line
-	2900 4850 700  4850
+	2850 4000 650  4000
 Wire Notes Line
-	700  6050 2900 6050
-Text Notes 750  4950 0    50   ~ 0
+	650  5200 2850 5200
+Text Notes 700  4100 0    50   ~ 0
 PA2
-Text Notes 750  5050 0    50   ~ 0
+Text Notes 700  4200 0    50   ~ 0
 PA3
-Text Notes 750  5150 0    50   ~ 0
+Text Notes 700  4300 0    50   ~ 0
 PA7
-Text Notes 750  5250 0    50   ~ 0
+Text Notes 700  4400 0    50   ~ 0
 PA15
-Text Notes 750  5350 0    50   ~ 0
+Text Notes 700  4500 0    50   ~ 0
 PB3
-Text Notes 750  5450 0    50   ~ 0
+Text Notes 700  4600 0    50   ~ 0
 PB4
-Text Notes 750  5550 0    50   ~ 0
+Text Notes 700  4700 0    50   ~ 0
 PB5
-Text Notes 750  5750 0    50   ~ 0
+Text Notes 700  4900 0    50   ~ 0
 PB7
-Text Notes 750  5850 0    50   ~ 0
+Text Notes 700  5000 0    50   ~ 0
 PB13
-Text Notes 750  5950 0    50   ~ 0
+Text Notes 700  5100 0    50   ~ 0
 PB14
-Text Notes 750  6050 0    50   ~ 0
+Text Notes 700  5200 0    50   ~ 0
 PB15
 Wire Notes Line
-	1000 4850 1000 6050
-Text Notes 1050 4950 0    50   ~ 0
+	950  4000 950  5200
+Text Notes 1000 4100 0    50   ~ 0
 USART2_TX
-Text Notes 1050 5050 0    50   ~ 0
+Text Notes 1000 4200 0    50   ~ 0
 USART2_RX
-Text Notes 750  5650 0    50   ~ 0
+Text Notes 700  4800 0    50   ~ 0
 PB6
-Text Notes 1050 5650 0    50   ~ 0
+Text Notes 1000 4800 0    50   ~ 0
 USART1_TX
-Text Notes 1050 5750 0    50   ~ 0
+Text Notes 1000 4900 0    50   ~ 0
 USART1_RX
 Wire Notes Line
-	700  5950 2900 5950
+	650  5100 2850 5100
 Wire Notes Line
-	1500 4850 1500 6050
-Text Notes 1550 5150 0    50   ~ 0
+	1450 4000 1450 5200
+Text Notes 1500 4300 0    50   ~ 0
 I2C3_SCL
-Text Notes 1550 5450 0    50   ~ 0
+Text Notes 1500 4600 0    50   ~ 0
 I2C3_SDA
-Text Notes 1550 5850 0    50   ~ 0
+Text Notes 1500 5000 0    50   ~ 0
 I2C2_SCL
-Text Notes 1550 5950 0    50   ~ 0
+Text Notes 1500 5100 0    50   ~ 0
 I2C2_SDA
 Wire Notes Line
-	1950 4850 1950 6050
-Text Notes 2000 5250 0    50   ~ 0
+	1900 4000 1900 5200
+Text Notes 1950 4400 0    50   ~ 0
 SPI3_CS
-Text Notes 2000 5350 0    50   ~ 0
+Text Notes 1950 4500 0    50   ~ 0
 SPI3_SCK
-Text Notes 2000 5450 0    50   ~ 0
+Text Notes 1950 4600 0    50   ~ 0
 SPI3_MISO
-Text Notes 2000 5550 0    50   ~ 0
+Text Notes 1950 4700 0    50   ~ 0
 SPI3_MOSI
-Text Notes 2000 5850 0    50   ~ 0
+Text Notes 1950 5000 0    50   ~ 0
 SPI2_SCK
-Text Notes 2000 5950 0    50   ~ 0
+Text Notes 1950 5100 0    50   ~ 0
 SPI2_MISO
-Text Notes 2000 6050 0    50   ~ 0
+Text Notes 1950 5200 0    50   ~ 0
 SPI2_MOSI
 Wire Notes Line
-	2450 6050 2450 4850
-Text Notes 2500 4950 0    50   ~ 0
+	2400 5200 2400 4000
+Text Notes 2450 4100 0    50   ~ 0
 ADC_IN7
-Text Notes 2500 5050 0    50   ~ 0
+Text Notes 2450 4200 0    50   ~ 0
 ADC_IN8
-Text Notes 2500 5150 0    50   ~ 0
+Text Notes 2450 4300 0    50   ~ 0
 ADC_IN12
 Wire Wire Line
-	2000 7300 1950 7300
+	1250 7300 1200 7300
 Wire Wire Line
-	2000 7400 1950 7400
+	1250 7400 1200 7400
 Wire Wire Line
-	2000 7500 1950 7500
+	1250 7500 1200 7500
 Wire Wire Line
 	5700 1000 5900 1000
 Wire Wire Line
@@ -1157,7 +1157,7 @@ I2C: 0x98
 Wire Wire Line
 	5200 3300 5200 3400
 Wire Wire Line
-	1950 7600 2000 7600
+	1200 7600 1250 7600
 Wire Wire Line
 	10000 3600 9950 3600
 Wire Wire Line
@@ -1224,23 +1224,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5BF14A32
-P 1750 7400
-F 0 "J3" H 1750 7600 50  0000 C CNN
-F 1 "Conn_GPIO" V 1850 7350 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1750 7400 50  0001 C CNN
-F 3 "~" H 1750 7400 50  0001 C CNN
-	1    1750 7400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0103
-U 1 1 5BF43682
-P 3000 6300
-F 0 "#PWR0103" H 3000 6150 50  0001 C CNN
-F 1 "+3.3V" H 2900 6450 50  0000 L CNN
-F 2 "" H 3000 6300 50  0001 C CNN
-F 3 "" H 3000 6300 50  0001 C CNN
-	1    3000 6300
+P 1000 7400
+F 0 "J3" H 1000 7600 50  0000 C CNN
+F 1 "Conn_GPIO" V 1100 7350 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1000 7400 50  0001 C CNN
+F 3 "~" H 1000 7400 50  0001 C CNN
+	1    1000 7400
 	-1   0    0    -1  
 $EndComp
 Text Label 6400 2850 0    50   ~ 0
@@ -1264,31 +1253,76 @@ NoConn ~ 6400 2450
 NoConn ~ 6400 2350
 NoConn ~ 6400 4750
 NoConn ~ 6400 5150
-NoConn ~ 6400 4550
-NoConn ~ 6400 4650
 NoConn ~ 6400 4450
 NoConn ~ 6400 4350
 NoConn ~ 6400 3750
 NoConn ~ 6400 3150
 Text Label 6400 2950 0    50   ~ 0
 DUT_VDD_CTRL
-Text Label 3350 6550 0    50   ~ 0
+Text Label 2500 6350 2    50   ~ 0
 DUT_VDD_CTRL
 $Comp
-L Transistor_FET:BSS84 Q?
-U 1 1 5C2EE224
-P 3100 6550
-F 0 "Q?" H 3306 6596 50  0000 L CNN
-F 1 "FDN340P" H 3306 6505 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3300 6475 50  0001 L CIN
-F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 3100 6550 50  0001 L CNN
-	1    3100 6550
-	-1   0    0    -1  
+L Analog_Switch_Extra:SN74LVC1G66 U4
+U 1 1 5C098B52
+P 2900 6350
+F 0 "U4" H 3150 6600 50  0000 R CNN
+F 1 "SN74LVC1G66" H 2900 6100 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD_Extra:SC-70-5" H 2900 5900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf" H 2900 6000 50  0001 C CNN
+	1    2900 6350
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 6550 3350 6550
+	3250 6350 3300 6350
 Wire Wire Line
-	3000 6300 3000 6350
+	3300 6350 3300 6900
 Wire Wire Line
-	3000 6850 3000 6750
+	3250 6250 3300 6250
+Wire Wire Line
+	3300 6250 3300 6200
+Wire Wire Line
+	2500 6350 2550 6350
+Wire Wire Line
+	2550 6450 2500 6450
+Wire Wire Line
+	2500 6450 2500 6500
+Wire Wire Line
+	2550 6250 2500 6250
+Wire Wire Line
+	2500 6250 2500 6200
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5C0CB0F3
+P 3300 6200
+F 0 "#PWR0103" H 3300 6050 50  0001 C CNN
+F 1 "+3.3V" H 3315 6373 50  0000 C CNN
+F 2 "" H 3300 6200 50  0001 C CNN
+F 3 "" H 3300 6200 50  0001 C CNN
+	1    3300 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5C0CB2B8
+P 2500 6200
+F 0 "#PWR0104" H 2500 6050 50  0001 C CNN
+F 1 "+3.3V" H 2515 6373 50  0000 C CNN
+F 2 "" H 2500 6200 50  0001 C CNN
+F 3 "" H 2500 6200 50  0001 C CNN
+	1    2500 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5C0CB8B0
+P 2500 6500
+F 0 "#PWR0105" H 2500 6250 50  0001 C CNN
+F 1 "GND" H 2505 6327 50  0000 C CNN
+F 2 "" H 2500 6500 50  0001 C CNN
+F 3 "" H 2500 6500 50  0001 C CNN
+	1    2500 6500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6400 2650
+NoConn ~ 6400 2550
 $EndSCHEMATC
